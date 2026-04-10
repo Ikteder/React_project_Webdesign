@@ -1,0 +1,4 @@
+model,MAE,RMSE,MAPE_pct
+RollingMean_7D,5.92,7.84,13.47
+PromoAdjusted_7D,6.11,8.02,13.89
+Naive_7D,7.05,9.13,15.44
