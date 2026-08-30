@@ -1,5 +1,7 @@
 # Demand Forecasting and Inventory Decision Support
 
+[![python-check](https://github.com/Ikteder/Demand-Forecasting-and-Inventory-Decision-Support/actions/workflows/python-check.yml/badge.svg)](https://github.com/Ikteder/Demand-Forecasting-and-Inventory-Decision-Support/actions/workflows/python-check.yml)
+
 <p align="center">
   <img src="reports/figures/summary_cards.svg" width="100%" alt="Demand forecasting summary cards" />
 </p>
@@ -17,12 +19,12 @@ A retail forecasting project that estimates store-product demand, compares forec
 
 | Area | Result |
 | --- | --- |
-| Best model on the bundled demo run | `RollingMean_7D` |
-| Lowest RMSE | `7.84` |
-| Lowest MAE | `5.92` |
+| Best model on the bundled demo run | `LinearRegression` |
+| Lowest RMSE | `3.10` |
+| Lowest MAE | `2.47` |
 | Highest store inventory exposure | `S2` |
-| Highest product inventory exposure | `P3` |
-| Most reliable forecast window | `7 days` |
+| Highest product inventory exposure | `P2` |
+| Chronological evaluation window | `35 days` |
 
 ## Visual Walkthrough
 
@@ -50,7 +52,7 @@ The workflow is built around three practical questions:
 - Which stores and products are hardest to forecast when variability increases?
 - Where is the largest overstock and understock exposure if planners act on the forecast?
 
-The repository includes a bundled demo retail dataset so the full pipeline can run immediately and later be swapped for Rossmann, Favorita, Walmart, or M5.
+The repository includes a deterministic synthetic retail dataset so the full pipeline can run immediately and later be swapped for Rossmann, Favorita, Walmart, or M5. The bundled data contains 2,190 daily observations across two stores and three products from January 1 through December 30, 2024.
 
 ## Workflow
 
@@ -72,10 +74,10 @@ flowchart LR
 
 ## Key Findings
 
-- The rolling-mean baseline produced the strongest overall performance on the bundled demo data.
-- Error increased during promotion-heavy periods, which is useful for setting more conservative safety stock.
-- Store **S2** and product **P3** carried the largest simulated inventory exposure in the sample run.
-- Reliability was strongest in the first week and decayed gradually as the forecast window widened.
+- Linear regression produced the strongest overall performance on the bundled synthetic data, with RMSE `3.10` and MAE `2.47` on the final 35 dates.
+- These results demonstrate pipeline behavior, not expected performance on real retail operations.
+- Store **S2** and product **P2** carried the largest simulated inventory exposure in the sample run.
+- Forecast-horizon values are illustrative planning scenarios rather than separately trained horizon models.
 
 ## Repository Guide
 
@@ -87,15 +89,34 @@ flowchart LR
 | `reports/` | Metrics tables and chart assets used in the README |
 | `sql/` | Business-facing rollup queries |
 | `tests/` | Small checks for feature engineering helpers |
-| `notebooks/` | Notebook starter for interactive exploration |
+| `scripts/generate_demo_data.py` | Reproduce the bundled synthetic dataset with seed `20260409` |
+| `docs/` | Dataset, experiment, model, decision, and working notes |
 
 ## Quick Start
 
 ```bash
 pip install -r requirements.txt
+python scripts/generate_demo_data.py  # optional: reproduce the bundled data
+python -m pytest -q
 python -m src.forecasting
 streamlit run app/streamlit_app.py
 ```
+
+## Verification
+
+The automated workflow runs the test suite and the complete forecasting pipeline on Python 3.11. The current verified local run produced three passing tests and regenerated the checked-in reports from the deterministic dataset.
+
+## Limitations
+
+- The bundled data is synthetic and intentionally simple; it cannot validate real-world demand accuracy or inventory savings.
+- The linear model and rolling baselines are demonstrations, not production forecasting recommendations.
+- Inventory exposure is a simulated error-cost proxy and excludes lead times, service levels, carrying cost, lost sales, and operational constraints.
+- The horizon reliability table is an illustrative scenario table rather than metrics from separately trained horizon-specific models.
+- A real deployment needs leakage-controlled backtesting over multiple origins and evaluation across stores, products, seasonal regimes, and stockout behavior.
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 ## Extensions
 

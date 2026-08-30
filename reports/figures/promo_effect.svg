@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320"><rect width="100%" height="100%" fill="white"/><text x="400" y="24" text-anchor="middle" font-size="18" font-family="Arial">Promotion Error Profile</text><line x1="60" y1="280" x2="780" y2="280" stroke="black"/><rect x="180" y="100" width="140" height="180" fill="#2563eb"/><rect x="460" y="60" width="140" height="220" fill="#2563eb"/><text x="250" y="300" text-anchor="middle" font-size="12" font-family="Arial">Non-promo</text><text x="530" y="300" text-anchor="middle" font-size="12" font-family="Arial">Promo</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450.0" y="26" text-anchor="middle" font-size="20" font-family="Arial" font-weight="700">Mean Absolute Error by Promotion State</text>
+<line x1="60" y1="305" x2="875" y2="305" stroke="#111827" stroke-width="2"/>
+<rect x="227.8" y="45.0" width="239.7" height="260.0" rx="6" fill="#2563eb"/>
+<text x="347.6" y="37.0" text-anchor="middle" font-size="12" font-family="Arial">2.5</text>
+<text x="347.6" y="338" text-anchor="middle" font-size="12" font-family="Arial">No promo</text>
+<rect x="635.3" y="78.0" width="239.7" height="227.0" rx="6" fill="#2563eb"/>
+<text x="755.1" y="70.0" text-anchor="middle" font-size="12" font-family="Arial">2.2</text>
+<text x="755.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">Promo</text>
+</svg>

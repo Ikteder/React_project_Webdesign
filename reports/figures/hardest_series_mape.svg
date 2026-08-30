@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320"><rect width="100%" height="100%" fill="white"/><text x="400" y="24" text-anchor="middle" font-size="18" font-family="Arial">Hardest Series by MAPE</text><line x1="120" y1="280" x2="780" y2="280" stroke="black"/><rect x="120" y="70" width="90" height="210" fill="#2563eb"/><rect x="250" y="120" width="90" height="160" fill="#2563eb"/><rect x="380" y="145" width="90" height="135" fill="#2563eb"/><rect x="510" y="170" width="90" height="110" fill="#2563eb"/><rect x="640" y="195" width="90" height="85" fill="#2563eb"/><text x="165" y="300" text-anchor="middle" font-size="12" font-family="Arial">S2-P3</text><text x="295" y="300" text-anchor="middle" font-size="12" font-family="Arial">S2-P2</text><text x="425" y="300" text-anchor="middle" font-size="12" font-family="Arial">S1-P3</text><text x="555" y="300" text-anchor="middle" font-size="12" font-family="Arial">S1-P2</text><text x="685" y="300" text-anchor="middle" font-size="12" font-family="Arial">S2-P1</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450.0" y="26" text-anchor="middle" font-size="20" font-family="Arial" font-weight="700">Hardest Series by MAPE</text>
+<line x1="60" y1="305" x2="875" y2="305" stroke="#111827" stroke-width="2"/>
+<rect x="127.1" y="45.0" width="95.9" height="260.0" rx="6" fill="#2563eb"/>
+<text x="175.1" y="37.0" text-anchor="middle" font-size="12" font-family="Arial">8.7</text>
+<text x="175.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">S1-P3</text>
+<rect x="290.1" y="76.4" width="95.9" height="228.6" rx="6" fill="#2563eb"/>
+<text x="338.1" y="68.4" text-anchor="middle" font-size="12" font-family="Arial">7.6</text>
+<text x="338.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">S2-P3</text>
+<rect x="453.1" y="117.2" width="95.9" height="187.8" rx="6" fill="#2563eb"/>
+<text x="501.1" y="109.2" text-anchor="middle" font-size="12" font-family="Arial">6.3</text>
+<text x="501.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">S2-P2</text>
+<rect x="616.1" y="121.2" width="95.9" height="183.8" rx="6" fill="#2563eb"/>
+<text x="664.1" y="113.2" text-anchor="middle" font-size="12" font-family="Arial">6.1</text>
+<text x="664.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">S1-P1</text>
+<rect x="779.1" y="148.3" width="95.9" height="156.7" rx="6" fill="#2563eb"/>
+<text x="827.1" y="140.3" text-anchor="middle" font-size="12" font-family="Arial">5.2</text>
+<text x="827.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">S1-P2</text>
+</svg>

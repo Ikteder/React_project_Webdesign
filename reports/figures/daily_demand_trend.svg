@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320"><rect width="100%" height="100%" fill="white"/><text x="400" y="24" text-anchor="middle" font-size="18" font-family="Arial">Total Daily Demand</text><line x1="60" y1="280" x2="780" y2="280" stroke="black"/><line x1="60" y1="40" x2="60" y2="280" stroke="black"/><polyline fill="none" stroke="#2563eb" stroke-width="3" points="60,230 140,210 220,215 300,205 380,195 460,180 540,170 620,165 700,155 780,145"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450.0" y="26" text-anchor="middle" font-size="20" font-family="Arial" font-weight="700">Total Daily Demand</text>
+<line x1="60" y1="305" x2="875" y2="305" stroke="#111827" stroke-width="2"/>
+<line x1="60" y1="45" x2="60" y2="305" stroke="#111827" stroke-width="2"/>
+<polyline fill="none" stroke="#0f766e" stroke-width="4" points="60.0,164.7 82.6,292.6 105.3,201.8 127.9,152.3 150.6,131.7 173.2,144.0 195.8,61.5 218.5,185.3 241.1,69.8 263.8,82.1 286.4,90.4 309.0,82.1 331.7,181.2 354.3,45.0 376.9,177.1 399.6,102.8 422.2,123.4 444.9,193.6 467.5,119.3 490.1,177.1 512.8,115.2 535.4,280.2 558.1,276.1 580.7,276.1 603.3,305.0 626.0,156.4 648.6,255.5 671.2,255.5 693.9,267.9 716.5,230.7 739.2,272.0 761.8,243.1 784.4,181.2 807.1,172.9 829.7,135.8 852.4,201.8 875.0,164.7"/>
+<text x="60.0" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-01</text>
+<text x="195.8" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-03</text>
+<text x="331.7" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-04</text>
+<text x="467.5" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-06</text>
+<text x="603.3" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-08</text>
+<text x="739.2" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-10</text>
+<text x="875.0" y="340" text-anchor="middle" font-size="11" font-family="Arial">2024-12</text>
+<circle cx="60.0" cy="164.7" r="4" fill="#0f766e"/>
+<circle cx="82.6" cy="292.6" r="4" fill="#0f766e"/>
+<circle cx="105.3" cy="201.8" r="4" fill="#0f766e"/>
+<circle cx="127.9" cy="152.3" r="4" fill="#0f766e"/>
+<circle cx="150.6" cy="131.7" r="4" fill="#0f766e"/>
+<circle cx="173.2" cy="144.0" r="4" fill="#0f766e"/>
+<circle cx="195.8" cy="61.5" r="4" fill="#0f766e"/>
+<circle cx="218.5" cy="185.3" r="4" fill="#0f766e"/>
+<circle cx="241.1" cy="69.8" r="4" fill="#0f766e"/>
+<circle cx="263.8" cy="82.1" r="4" fill="#0f766e"/>
+<circle cx="286.4" cy="90.4" r="4" fill="#0f766e"/>
+<circle cx="309.0" cy="82.1" r="4" fill="#0f766e"/>
+<circle cx="331.7" cy="181.2" r="4" fill="#0f766e"/>
+<circle cx="354.3" cy="45.0" r="4" fill="#0f766e"/>
+<circle cx="376.9" cy="177.1" r="4" fill="#0f766e"/>
+<circle cx="399.6" cy="102.8" r="4" fill="#0f766e"/>
+<circle cx="422.2" cy="123.4" r="4" fill="#0f766e"/>
+<circle cx="444.9" cy="193.6" r="4" fill="#0f766e"/>
+<circle cx="467.5" cy="119.3" r="4" fill="#0f766e"/>
+<circle cx="490.1" cy="177.1" r="4" fill="#0f766e"/>
+<circle cx="512.8" cy="115.2" r="4" fill="#0f766e"/>
+<circle cx="535.4" cy="280.2" r="4" fill="#0f766e"/>
+<circle cx="558.1" cy="276.1" r="4" fill="#0f766e"/>
+<circle cx="580.7" cy="276.1" r="4" fill="#0f766e"/>
+<circle cx="603.3" cy="305.0" r="4" fill="#0f766e"/>
+<circle cx="626.0" cy="156.4" r="4" fill="#0f766e"/>
+<circle cx="648.6" cy="255.5" r="4" fill="#0f766e"/>
+<circle cx="671.2" cy="255.5" r="4" fill="#0f766e"/>
+<circle cx="693.9" cy="267.9" r="4" fill="#0f766e"/>
+<circle cx="716.5" cy="230.7" r="4" fill="#0f766e"/>
+<circle cx="739.2" cy="272.0" r="4" fill="#0f766e"/>
+<circle cx="761.8" cy="243.1" r="4" fill="#0f766e"/>
+<circle cx="784.4" cy="181.2" r="4" fill="#0f766e"/>
+<circle cx="807.1" cy="172.9" r="4" fill="#0f766e"/>
+<circle cx="829.7" cy="135.8" r="4" fill="#0f766e"/>
+<circle cx="852.4" cy="201.8" r="4" fill="#0f766e"/>
+<circle cx="875.0" cy="164.7" r="4" fill="#0f766e"/>
+</svg>

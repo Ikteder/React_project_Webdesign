@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320"><rect width="100%" height="100%" fill="white"/><text x="400" y="24" text-anchor="middle" font-size="18" font-family="Arial">Model Comparison by RMSE</text><line x1="60" y1="280" x2="780" y2="280" stroke="black"/><rect x="120" y="80" width="120" height="200" fill="#2563eb"/><rect x="340" y="95" width="120" height="185" fill="#2563eb"/><rect x="560" y="55" width="120" height="225" fill="#2563eb"/><text x="180" y="300" text-anchor="middle" font-size="12" font-family="Arial">RollingMean_7D</text><text x="400" y="300" text-anchor="middle" font-size="12" font-family="Arial">PromoAdjusted_7D</text><text x="620" y="300" text-anchor="middle" font-size="12" font-family="Arial">Naive_7D</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450.0" y="26" text-anchor="middle" font-size="20" font-family="Arial" font-weight="700">Model Comparison by RMSE</text>
+<line x1="60" y1="305" x2="875" y2="305" stroke="#111827" stroke-width="2"/>
+<rect x="171.9" y="162.6" width="159.8" height="142.4" rx="6" fill="#2563eb"/>
+<text x="251.8" y="154.6" text-anchor="middle" font-size="12" font-family="Arial">3.1</text>
+<text x="251.8" y="338" text-anchor="middle" font-size="12" font-family="Arial">LinearRegression</text>
+<rect x="443.5" y="106.6" width="159.8" height="198.4" rx="6" fill="#2563eb"/>
+<text x="523.4" y="98.6" text-anchor="middle" font-size="12" font-family="Arial">4.3</text>
+<text x="523.4" y="338" text-anchor="middle" font-size="12" font-family="Arial">RollingMean_7D</text>
+<rect x="715.2" y="45.0" width="159.8" height="260.0" rx="6" fill="#2563eb"/>
+<text x="795.1" y="37.0" text-anchor="middle" font-size="12" font-family="Arial">5.7</text>
+<text x="795.1" y="338" text-anchor="middle" font-size="12" font-family="Arial">Naive_7D</text>
+</svg>
